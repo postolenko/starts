@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
+	<title>StartsFromYou</title>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<!-- Header -->
+		
+	<header>
+		<div class="header_site">
+			<div class="row">
+				<div class="header_top_row">
+					<div class="left">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="" />
+						</a>
+					</div>
+					<div class="center">
+						<div class="search_box">
+							<img class="search_shape_2" src="img/search_shape_2.svg" alt="" />
+							<img class="search_shape_3" src="img/search_shape_3.svg" alt="" />
+							<div class="search_wrapp">
+								<form>
+									<div class="search_form">
+										<div>
+											<input class="search_input" type="text" placeholder="Search now" />
+										</div>
+										<div>
+											<button type="submit" class="search_btn">
+												<svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M16.3 8.86954C16.3 12.9127 13.0011 16.1956 8.92505 16.1956C4.84901 16.1956 1.55005 12.9127 1.55005 8.86954C1.55005 4.82639 4.84901 1.54346 8.92505 1.54346C13.0011 1.54346 16.3 4.82639 16.3 8.86954Z" stroke="#7785F8"/>
+													<path d="M13.65 15.6523L18.9 21.9132" stroke="#7785F8" stroke-linecap="round"/>
+												</svg>
+											</button>
+										</div>
+									</div>
+								</form>								
+							</div>
+							<img class="search_shape_1" src="img/search_shape.svg" alt="" />
+							<img class="search_shape_4" src="img/search_shape_4.svg" alt="" />
+						</div>
+						<div class="soc_list_wrapp">
+							<div>
+								<h3>Our social networks</h3>
+							</div>
+							<div>
+								<ul class="soc_list">
+									<li><a href="#"><img src="img/youtube.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/facebook.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/tic.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/instagram.svg" alt="" /></a></li>
+									<li><a href="#"><img src="img/news.svg" alt="" /></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="inlines">
+							<div>
+								<ul class="log_list">
+									<li><a href="#">Log in</a></li>
+									<li><a href="#">Sign up</a></li>
+								</ul>
+							</div>
+							<div>
+								<div class="basket_wrapp">
+									<a href="#" class="basket_link">
+										<svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.876214 18.2712L2.54386 9.27123C2.89514 7.37543 4.54883 6 6.47691 6H14.5231C16.4512 6 18.1049 7.37543 18.4561 9.27123L20.1238 18.2712C20.5795 20.7305 18.6918 23 16.1907 23H4.80926C2.30818 23 0.420534 20.7305 0.876214 18.2712Z" stroke="white" stroke-linecap="round"/>
+											<path d="M7 10V3.4C7 2.46897 8.55556 0.999999 10.5 1C12.1034 1 14 2.15862 14 3.4C14 4.3931 14 8.13793 14 10" stroke="white" stroke-linecap="round"/>
+										</svg>
+										<span class="count_num">1</span>
+									</a>
+								</div>
+							</div>
+							<div>
+								<div class="dr_1 dr">
+									<div>
+										<div class="dr_1_title dr_title">
+											<p>EN</p>
+										</div>
+									</div>
+									<div class="dr_1_content dr_content">
+										<ul class="dr_list">
+											<li><a href="#">EN</a></li>
+											<li><a href="#">RU</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="dr_1 dr">
+									<div>
+										<div class="dr_1_title dr_title">
+											<p>USD</p>
+										</div>
+									</div>
+									<div class="dr_1_content dr_content">
+										<ul class="dr_list">
+											<li><a href="#">USD</a></li>
+											<li><a href="#">RUB</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_nav_wrapp" id="resp_nav">
+				<div class="row">
+					<ul class="main_nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Shipping</a></li>
+						<li><a href="#">Payments</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Articles</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div>
+			</div>
+			<button class="respmenubtn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>								
+	</header>
+
+	<!-- /Header -->
+
+	<!-- Content -->
+		<div class="content">
+
+		<!-- Section 1 - Main Page -->
+		<section class="sect_1 grey_bg">
+			<svg class="sect_1_shape_1" width="1920" height="1377" viewBox="0 0 1920 1377" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="21.5002" cy="1163.5" r="307" fill="url(#paint0_radial_428_4157)" stroke="white"/>
+				<circle cx="1904" cy="50" r="335.5" fill="url(#paint1_radial_428_4157)" stroke="white"/>
+				<g filter="url(#filter0_f_428_4157)">
+				<circle cx="52.3416" cy="1171.34" r="255.698" transform="rotate(37.2883 52.3416 1171.34)" fill="url(#paint2_linear_428_4157)"/>
+				</g>
+				<defs>
+				<filter id="filter0_f_428_4157" x="-703.37" y="415.63" width="1511.42" height="1511.42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+				<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+				<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_428_4157"/>
+				</filter>
+				<radialGradient id="paint0_radial_428_4157" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(21.5002 1163.5) rotate(90) scale(307.5)">
+				<stop stop-color="#E0E3FF"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				<radialGradient id="paint1_radial_428_4157" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1904 50) rotate(90) scale(336)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				<linearGradient id="paint2_linear_428_4157" x1="52.3416" y1="915.643" x2="52.3416" y2="1427.04" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#E0EDFF"/>
+				<stop offset="1" stop-color="white"/>
+				</linearGradient>
+				</defs>
+			</svg>
+			<svg class="sect_1_shape_3" width="1620" height="1377" viewBox="0 0 1620 1377" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<ellipse cx="810" cy="617.5" rx="810" ry="810.5" fill="url(#paint0_radial_139_966)"/>
+				<defs>
+				<radialGradient id="paint0_radial_139_966" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 617.5) rotate(90) scale(810.5 810)">
+				<stop stop-color="white"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<div class="row">
+				<div class="article">
+					<div class="left_col">
+						<h2>If you want to change the world, start with yourself.</h2>
+						<p>ArtCube TM is a company dedicated to working on yourself and self-improvement. In addition to our main direction, you can find a lot of useful information.</p>
+						<p>At www.startsfromyou.com you can find specially designed courses. They have answers to a wide variety of topics.</p>
+						<p>From stress and depression to problems of making money and creating a family.</p>
+						<p class="blue">Why do we work with such diverse topics and how are they interrelated?</p>
+					</div>
+					<div class="right_col">
+						<div class="main_video_sect">
+							<video class="main_video" width="320" height="240" controls poster="img/poster.jpg">
+							  <source src="movie.mp4" type="video/mp4">
+							  <source src="movie.ogg" type="video/ogg">
+							</video>
+							<a href="#" class="logo_link">
+								<img src="img/logo_2.svg" alt="" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="article_2">
+					<h3>Understand the causes, not the effects.</h3>
+					<p>All of our problems depend on ourselves. We create them ourselves and ultimately solve them ourselves. However, most problems should in principle not appear. Our task and goal is to show people the causes of their problems. It does not matter what they are. It can be psycho-emotional state, family, work or business, health. It does not matter at all.</p>
+					<h3>Everything in life is interconnected.</h3>
+					<p>Man - his life and essence - is the result of cause and effect. Our whole life, in fact, consists of cause and effect. We give answers to the right questions. We work on causes and establish consequences. Helping dreams become reality.</p>
+					<h3>Do you feel you have potential?</h3>
+					<p>Very often people feel the potential in themselves, but do not understand how to unlock it. Or feel psycho-emotional stress, but do not understand how to avoid it. ArtCube TM company aims at self-improvement of a person. Our goal is to give the right information as coherently and accurately as possible. Our own developments in the field of human self-improvement will help to open any person. And the field of activity is not important, because it is about self-improvement.</p>
+					<h3>If you want to do something well, do it yourself.</h3>
+					<p>To know everything around you, you must first know yourself. Many people know this phrase, but not everyone really understands it. It is working on yourself that can turn your life around. With the right approach, the same work can be done with different efficiency. It's the same with psychology, relationships, health and other areas of life.</p>
+				</div>
+			</div>
+			<svg class="sect_1_shape_2" width="1920" height="1377" viewBox="0 0 1920 1377" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="21.5" cy="1163.5" r="307" fill="url(#paint0_radial_428_4156)" stroke="white"/>
+				<circle cx="1904" cy="50" r="335.5" fill="url(#paint1_radial_428_4156)" stroke="white"/>
+				<g filter="url(#filter0_f_428_4156)">
+				<circle cx="52.3416" cy="1171.34" r="255.698" transform="rotate(37.2883 52.3416 1171.34)" fill="url(#paint2_linear_428_4156)"/>
+				</g>
+				<defs>
+				<filter id="filter0_f_428_4156" x="-703.37" y="415.63" width="1511.42" height="1511.42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+				<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+				<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_428_4156"/>
+				</filter>
+				<radialGradient id="paint0_radial_428_4156" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(21.5 1163.5) rotate(90) scale(307.5)">
+				<stop stop-color="#E0E3FF"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				<radialGradient id="paint1_radial_428_4156" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1904 50) rotate(90) scale(336)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				<linearGradient id="paint2_linear_428_4156" x1="52.3416" y1="915.643" x2="52.3416" y2="1427.04" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#E0EDFF"/>
+				<stop offset="1" stop-color="white"/>
+				</linearGradient>
+				</defs>
+			</svg>
+		</section>
+		<!-- /Section 1 - Main Page -->
+
+		<!-- Section 2 - Main Page -->
+		<section class="single_title_sect blue_bg">
+			<svg class="sect_1_shape_4" width="1620" height="293" viewBox="0 0 1620 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<ellipse opacity="0.6" cx="810" cy="62.5" rx="810" ry="810.5" fill="url(#paint0_radial_236_2524)"/>
+				<defs>
+				<radialGradient id="paint0_radial_236_2524" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 62.5) rotate(90) scale(810.5 810)">
+				<stop stop-color="white"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<svg class="sect_1_shape_5" width="672" height="293" viewBox="0 0 672 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="336" cy="169" r="335.5" fill="url(#paint0_radial_236_2528)" stroke="white"/>
+				<defs>
+				<radialGradient id="paint0_radial_236_2528" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(336 169) rotate(90) scale(336)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<div class="row">
+				<div class="single_title">
+					<div class="single_title_h2">
+						<h2>View rewievs of our products</h2>
+					</div>
+					<p>We are constantly improving.  The list of our products is being updated.</p>
+					<p>Also, we have special promotions on the purchase of more than 2 of our products.</p>
+				</div>
+			</div>
+		</section>
+		<!-- /Section 2 - Main Page -->
+
+		<!-- Section 3 - Main Page -->
+		<section class="sect_3_main_page grey_bg">
+			<svg class="sect_1_shape_6" width="1851" height="501" viewBox="0 0 1851 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="1791.5" cy="59.5" r="59" fill="url(#paint0_radial_433_4180)" stroke="white"/>
+				<circle cx="175.5" cy="316.5" r="92" fill="url(#paint1_radial_433_4180)" stroke="white"/>
+				<g filter="url(#filter0_f_433_4180)">
+				<circle cx="52.3416" cy="1131.34" r="255.698" transform="rotate(37.2883 52.3416 1131.34)" fill="url(#paint2_linear_433_4180)"/>
+				</g>
+				<defs>
+				<filter id="filter0_f_433_4180" x="-703.37" y="375.63" width="1511.42" height="1511.42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+				<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+				<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_433_4180"/>
+				</filter>
+				<radialGradient id="paint0_radial_433_4180" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1791.5 59.5) rotate(90) scale(59.5)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				<radialGradient id="paint1_radial_433_4180" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(175.5 316.5) rotate(90) scale(92.5)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				<linearGradient id="paint2_linear_433_4180" x1="52.3416" y1="875.643" x2="52.3416" y2="1387.04" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#E0EDFF"/>
+				<stop offset="1" stop-color="white"/>
+				</linearGradient>
+				</defs>
+			</svg>
+			<svg class="sect_1_shape_8" width="672" height="293" viewBox="0 0 672 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="336" cy="169" r="335.5" fill="url(#paint0_radial_236_2528)" stroke="white"/>
+				<defs>
+				<radialGradient id="paint0_radial_236_2528" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(336 169) rotate(90) scale(336)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<div class="row">
+				<div class="slider_1_wrapp">
+					<div class="slider_1">
+						<div class="slide">
+							<div class="thumb">
+								<div>
+									<div class="slide_title">
+										<h3>New day</h3>
+									</div>
+									<div class="thumb_poster_wrapp">
+										<h3></h3>
+										<img src="img/thumb_01.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="thumb">
+								<div>
+									<div class="slide_title">
+										<h3>Business</h3>
+									</div>
+									<div class="thumb_poster_wrapp">
+										<h3></h3>
+										<img src="img/thumb_02.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="thumb">
+								<div>
+									<div class="slide_title">
+										<h3>Gourmet</h3>
+									</div>
+									<div class="thumb_poster_wrapp">
+										<h3></h3>
+										<img src="img/thumb_03.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="thumb">
+								<div>
+									<div class="slide_title">
+										<h3>New day</h3>
+									</div>
+									<div class="thumb_poster_wrapp">
+										<h3></h3>
+										<img src="img/thumb_01.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="thumb">
+								<div>
+									<div class="slide_title">
+										<h3>Business</h3>
+									</div>
+									<div class="thumb_poster_wrapp">
+										<h3></h3>
+										<img src="img/thumb_02.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slide">
+							<div class="thumb">
+								<div>
+									<div class="slide_title">
+										<h3>Gourmet</h3>
+									</div>
+									<div class="thumb_poster_wrapp">
+										<h3></h3>
+										<img src="img/thumb_03.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slider_1_dots"></div>
+				</div>
+			</div>
+			<svg class="sect_1_shape_7" width="1851" height="501" viewBox="0 0 1851 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="1791.5" cy="59.5" r="59" fill="url(#paint0_radial_433_4183)" stroke="white"/>
+				<circle cx="175.5" cy="316.5" r="92" fill="url(#paint1_radial_433_4183)" stroke="white"/>
+				<g filter="url(#filter0_f_433_4183)">
+				<circle cx="52.3416" cy="1131.34" r="255.698" transform="rotate(37.2883 52.3416 1131.34)" fill="url(#paint2_linear_433_4183)"/>
+				</g>
+				<defs>
+				<filter id="filter0_f_433_4183" x="-703.37" y="375.63" width="1511.42" height="1511.42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+				<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+				<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_433_4183"/>
+				</filter>
+				<radialGradient id="paint0_radial_433_4183" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1791.5 59.5) rotate(90) scale(59.5)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				<radialGradient id="paint1_radial_433_4183" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(175.5 316.5) rotate(90) scale(92.5)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				<linearGradient id="paint2_linear_433_4183" x1="52.3416" y1="875.643" x2="52.3416" y2="1387.04" gradientUnits="userSpaceOnUse">
+				<stop stop-color="#E0EDFF"/>
+				<stop offset="1" stop-color="white"/>
+				</linearGradient>
+				</defs>
+			</svg>
+		</section>
+		<!-- /Section 3 - Main Page -->
+
+		<!-- Section 2 - Main Page -->
+		<section class="single_title_sect blue_bg">
+			<svg class="sect_1_shape_4" width="1620" height="293" viewBox="0 0 1620 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<ellipse opacity="0.6" cx="810" cy="62.5" rx="810" ry="810.5" fill="url(#paint0_radial_236_2524)"/>
+				<defs>
+				<radialGradient id="paint0_radial_236_2524" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 62.5) rotate(90) scale(810.5 810)">
+				<stop stop-color="white"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<svg class="sect_1_shape_5" width="672" height="293" viewBox="0 0 672 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="336" cy="169" r="335.5" fill="url(#paint0_radial_236_2528)" stroke="white"/>
+				<defs>
+				<radialGradient id="paint0_radial_236_2528" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(336 169) rotate(90) scale(336)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<div class="row">
+				<div class="single_title">
+					<div class="single_title_h2">
+						<h2>Our Products</h2>
+					</div>
+					<p>We are constantly improving. The list of our products is being updated.</p>
+					<p>Also, we have special promotions on the purchase of more than 2 of our products.</p>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- /Section 2 - Main Page -->
+
+		<!-- Section 4 - Main Page -->
+		<section>
+			<svg class="sect_1_shape_9" width="659" height="697" viewBox="0 0 659 697" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g filter="url(#filter0_f_76_5497)">
+				<circle cx="25.2234" cy="63.2235" r="133.595" transform="rotate(37.2883 25.2234 63.2235)" fill="white"/>
+				</g>
+				<defs>
+				<filter id="filter0_f_76_5497" x="-608.379" y="-570.379" width="1267.2" height="1267.21" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+				<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+				<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+				<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_76_5497"/>
+				</filter>
+				</defs>
+			</svg>
+			<svg class="sect_1_shape_10" width="1325" height="1140" viewBox="0 0 1325 1140" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="662.5" cy="477.5" r="662.5" fill="url(#paint0_radial_76_5470)"/>
+				<defs>
+				<radialGradient id="paint0_radial_76_5470" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(662.5 477.5) rotate(90) scale(662.5)">
+				<stop stop-color="white"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+
+			<div class="row">
+				<div class="product_templ">
+					<div class="left_col">
+						<div class="scroll_sidebar_wrapp active">
+							<div class="scroll_sidebar_title">
+								<h3>Menu</h3>
+							</div>
+							<div class="scroll_sidebar">
+								<div class="scroll_inner scroll_y">
+									<ul class="goods_list">
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="good_link">
+												<div>
+													<img src="img/miniatures/good_01.png" alt="" />
+												</div>
+												<div>
+													<p>no depression</p>
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right_col">
+						<div class="slider_templ">
+							<div class="left_col">
+								<div class="card_title">
+									<h2>Health</h2>
+									<p>Improve your health easy</p>
+								</div>
+								<div class="card_two_cols">
+									<div>
+										<div class="table_1">
+											<div class="table_row">
+												<div>
+													<h3>Rating</h3>
+												</div>
+												<div>
+													<p class="num">4.908</p>
+												</div>
+											</div>
+											<div class="table_row">
+												<div>
+													<h3>Rewievs</h3>
+												</div>
+												<div>
+													<a href="#" class="blue_link">149</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div>
+										<div class="rateit svg" data-rateit-value="4.5" data-rateit-starwidth="28" data-rateit-starheight="28" data-rateit-ispreset="true" data-rateit-readonly="true"></div>
+									</div>
+								</div>
+								<div class="card_descript">
+									<p>30 postulates and 30 practical exercises for improving health at home. A unique practical-theoretical course to improve health for people of all ages and genders.</p>
+								</div>
+								<div class="card_two_cols">
+									<div>
+										<div class="price">
+											<p class="old_price">45 $</p>
+											<p class="disc_price">(-50% off)</p>
+										</div>
+										<p class="actual_price">24 $</p>
+									</div>
+									<div>
+										<a href="#" class="buy_pill">
+											<i class="bug_icon"></i>
+											Buy now
+										</a>
+									</div>
+								</div>
+								<div class="discount_cupon">
+									<img class="cupon" src="img/cupon_3.png" alt="" />
+								</div>
+							</div>
+							<div class="right_col">
+								<div class="good_slider_wrapp">
+									<div class="good_slider">
+										<div class="slide" style="background-image: url(img/slide.jpg)"></div>
+										<div class="slide video_slide" data-src = "https://youtu.be/a6Sybs5UGlg" style="background-image: url(img/slide.jpg)"></div>
+										<div class="slide" style="background-image: url(img/slide.jpg)"></div>
+										<div class="slide" style="background-image: url(img/slide.jpg)"></div>
+									</div>
+									<div class="good_miniature_slider">
+										<div class="slide" style="background-image: url(img/slide.jpg)"></div>
+										<div class="slide video_miniature_slide" data-src = "https://youtu.be/a6Sybs5UGlg" style="background-image: url(img/slide.jpg)"></div>
+										<div class="slide" style="background-image: url(img/slide.jpg)"></div>
+										<div class="slide" style="background-image: url(img/slide.jpg)"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card_descript_2">
+							<h3>about product</h3>
+							<p>Texttexttexttexttexttexttexttex ttexttexttexttexttexttext texttexttexttexttexttexttexttexttext texttexttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttexttexttexttexttext texttexttexttexttexttexttexttexttexttext</p>
+							<div>
+								<a href="#" class="blue_pill">detailed description<i class="white_arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /Section 4 - Main Page -->
+
+		<!-- Section 2 - Main Page -->
+		<section class="single_title_sect blue_bg">
+			<svg class="sect_1_shape_4" width="1620" height="293" viewBox="0 0 1620 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<ellipse opacity="0.6" cx="810" cy="62.5" rx="810" ry="810.5" fill="url(#paint0_radial_236_2524)"/>
+				<defs>
+				<radialGradient id="paint0_radial_236_2524" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 62.5) rotate(90) scale(810.5 810)">
+				<stop stop-color="white"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<svg class="sect_1_shape_5" width="672" height="293" viewBox="0 0 672 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="336" cy="169" r="335.5" fill="url(#paint0_radial_236_2528)" stroke="white"/>
+				<defs>
+				<radialGradient id="paint0_radial_236_2528" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(336 169) rotate(90) scale(336)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<div class="row">
+				<div class="single_title">
+					<div class="single_title_h2">
+						<h2>Articles</h2>
+					</div>
+					<p>Arbitrary text  Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary</p>
+					<p>text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text.</p>
+				</div>
+			</div>
+		</section>
+		<!-- /Section 2 - Main Page -->
+
+		<!-- Section 5 - Main Page -->
+		<!-- /Section 5 - Main Page -->
+
+		<!-- Section 6 - Main Page -->
+		<!-- /Section 6 - Main Page -->
+
+		<!-- Section 7 - Main Page -->
+		<section class="sect_7 blue_bg">
+			<svg class="sect_1_shape_11" width="1748" height="856" viewBox="0 0 1748 856" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<ellipse cx="874" cy="617.5" rx="874" ry="874.5" fill="url(#paint0_radial_92_8589)"/>
+				<defs>
+				<radialGradient id="paint0_radial_92_8589" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(862 575) rotate(89.2503) scale(917.078 916.554)">
+				<stop stop-color="white"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+
+			<div class="row">
+				<div class="faq">
+					<div class="faq_article">
+						<div class="left_col">
+							<img src="img/faq.png" alt="" />
+						</div>
+						<div class="right_col">
+							<div class="faq_article_title">
+								<h2>Header</h2>
+							</div>
+							<p>Texttexttexttexttexttexttext texttexttexttexttexttex ttexttexttexttexttexttexttext texttexttexttexttexttexttextte xttexttexttexttexttextt exttexttexttexttexttext texttexttexttexttextt exttexttexttexttextt exttexttexttexttexttexttex ttexttexttexttexttexttexttexttext</p>
+						</div>
+					</div>
+					<div class="dropdowns">
+						<div class="dropdown_item dr_2 active">
+							<div class="dropdown_item_title dr_title_2">
+								<h3>TextTextTextTextTextTextTextTextTextTextTextTextText?</h3>
+							</div>
+							<div class="dropdown_item_content dr_content_2">
+								<p>Answer</p>
+							</div>
+						</div>
+						<div class="dropdown_item dr_2">
+							<div class="dropdown_item_title dr_title_2">
+								<h3>TextTextTextTextTextTextTextTextTextTextTextTexextText?</h3>
+							</div>
+							<div class="dropdown_item_content dr_content_2">
+								<p>Answer</p>
+							</div>
+						</div>
+						<div class="dropdown_item dr_2">
+							<div class="dropdown_item_title dr_title_2">
+								<h3>TextTextTextTextTextTextTextTextTextTextTextTexextText?</h3>
+							</div>
+							<div class="dropdown_item_content dr_content_2">
+								<p>Answer</p>
+							</div>
+						</div>
+						<div class="dropdown_item dr_2">
+							<div class="dropdown_item_title dr_title_2">
+								<h3>TextTextTextTextTextTextTextTextTextTextTextTexextText?</h3>
+							</div>
+							<div class="dropdown_item_content dr_content_2">
+								<p>Answer</p>
+							</div>
+						</div>
+					</div>
+					<div class="blue_pill_wrapp">
+						<a href="#" class="blue_pill">ask your question<i class="white_arrow"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /Section 7 - Main Page -->
+
+		<!-- Section 2 - Main Page -->
+		<section class="single_title_sect blue_bg">
+			<svg class="sect_1_shape_4" width="1620" height="293" viewBox="0 0 1620 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<ellipse opacity="0.6" cx="810" cy="62.5" rx="810" ry="810.5" fill="url(#paint0_radial_236_2524)"/>
+				<defs>
+				<radialGradient id="paint0_radial_236_2524" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 62.5) rotate(90) scale(810.5 810)">
+				<stop stop-color="white"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<svg class="sect_1_shape_5" width="672" height="293" viewBox="0 0 672 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="336" cy="169" r="335.5" fill="url(#paint0_radial_236_2528)" stroke="white"/>
+				<defs>
+				<radialGradient id="paint0_radial_236_2528" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(336 169) rotate(90) scale(336)">
+				<stop stop-color="white" stop-opacity="0.26"/>
+				<stop offset="1" stop-color="white" stop-opacity="0"/>
+				</radialGradient>
+				</defs>
+			</svg>
+			<div class="row">
+				<div class="single_title">
+					<div class="single_title_h2">
+						<h2>In conclusion</h2>
+					</div>
+					<p>Arbitrary text  Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary</p>
+					<p>text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text.</p>
+					<br />
+					<p>Arbitrary text  Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary</p>
+					<p>text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text.</p>
+					<br />
+					<p>Arbitrary text  Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary</p>
+					<p>text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text.</p>
+					<br />
+					<p>Arbitrary text  Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary</p>
+					<p>text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text Arbitrary text.</p>
+				</div>
+			</div>
+		</section>
+		<!-- /Section 2 - Main Page -->
+
+
+
+
+
+
+		</div>
+	<!-- /Content -->
+
+	<!-- Footer -->
+
+		<footer class="footer_section">
+
+		</footer>
+
+	<!-- /Footer -->
+
+	</div>
+
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">
+	<script src="vendors/js/jquery.js"></script>
+	<script src="slick/slick.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="vendors/js/jquery.fancybox.js"></script>
+	<script src="vendors/js/jquery.rateit.js"></script>
+	<script src="js/scripts.js"></script>
+
+</body>
+</html>
