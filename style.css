@@ -2267,10 +2267,6 @@ div.svg div.rateit-preset {
     -webkit-transform: translate(-50%, -50%);
 }
 
-.faq {
-
-}
-
 .faq_article {
     display: flex;
     display: -webkit-flex;
@@ -2319,7 +2315,7 @@ div.svg div.rateit-preset {
 }
 
 .dr_content {
-    /*display: none;*/
+
 }
 
 .dropdown_item {
