@@ -569,8 +569,19 @@ section  > .row {
 }
 
 .header_top_row .logo {
+    display: block;
+    max-width: 316px;
+    cursor: pointer;
     position: relative;
+    top: 25px;
     left: 17px;
+}
+
+.logo img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
 .search_box {
