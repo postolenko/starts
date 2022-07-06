@@ -4,6 +4,15 @@ e = d.documentElement,
 g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
+function getMainNavParams() {
+  topCoord = $("#navHeight").offset().top;
+  $("#navHeight").height($("#resp_nav"));
+  if($(document).scrollTop() >= topCoord) {
+    $("#resp_nav").addClass("fixed");
+  } else {
+    $("#resp_nav").removeClass("fixed");
+  }
+}
 
 $(window).load(function() {
   if($(".scroll_y").length > 0) {
@@ -13,29 +22,25 @@ $(window).load(function() {
   $('.good_slider .video_slide').each(function() {
     index++;
     $(this).attr("data-fancybox", "video_"+index);
-    console.log(index);
   });
   index = 0;
   $('.good_miniature_slider .video_miniature_slide').each(function() {
     index++;
     $(this).attr("data-fancybox", "video_miniature_"+index);
-    console.log(index);
   });
 });
 
 $(window).resize(function() {
-
-
-
+  getMainNavParams();
 });
 
 $(document).scroll(function() {
-
-
-
+  getMainNavParams();
 });
 
 $(document).ready(function() {
+
+  getMainNavParams();
 
   $(".dr").each(function() {
     drContent = $(this).find(".dr_content");
@@ -174,7 +179,7 @@ $(document).ready(function() {
     $(".good_miniature_slider").not(".slick-initialized").slick({
       dots: false,
       arrows: true,
-      // autoplay: true,
+      autoplay: true,
       autoplaySpeed: 4000,
       speed: 1200,
       slidesToShow: 3,

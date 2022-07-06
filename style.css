@@ -959,6 +959,14 @@ section  > .row {
     z-index: 2;
 }
 
+.main_nav_wrapp.fixed {
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .main_nav {
     display: flex;
     display: -webkit-flex;
@@ -1694,8 +1702,7 @@ section  > .row {
 }
 
 .scroll_inner {
-    /*padding: 0 5px 0 20px;*/
-    max-height: 1050px;
+    max-height: calc(100vh - 169px);
 }
 
 .goods_list {
