@@ -2949,6 +2949,31 @@ div.rateit_3.svg div.rateit-preset {
 
 /*-- /Section 7 - Main Page --*/
 
+/*-- Section 1 - Product Page --*/
+
+.product_templ_2 {
+    padding: 35px 0 35px 0;
+}
+
+.slider_templ_2 {
+
+}
+
+.slider_templ_2 > .left_col {
+    width: calc(100% - 480px);
+}
+
+.slider_templ_2 > .right_col {
+    width: 480px;
+}
+
+.product_card_descript {
+    max-width: 500px;
+}
+
+
+/*-- /Section 1 - Product Page --*/
+
 /*-- Section 3 - Product Page --*/
 
 .video_big_wrapp {
