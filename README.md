@@ -4,3 +4,7 @@
 # http://postolenko.github.io/starts/payment.html
 # http://postolenko.github.io/starts/delivery.html
 # http://postolenko.github.io/starts/articles.html
+# http://postolenko.github.io/starts/articles_self_improvement.html
+# http://postolenko.github.io/starts/articles_2.html
+# http://postolenko.github.io/starts/articles_3.html
+# http://postolenko.github.io/starts/find_questions.html

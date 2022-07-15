@@ -53,6 +53,11 @@ $(window).load(function() {
       }
     });
   }
+
+  if($(".scrollbox_2").length > 0) {
+    $(".scrollbox_2").mCustomScrollbar();
+  };
+
   index = 0;
   $('.good_slider .video_slide').each(function() {
     index++;
@@ -305,6 +310,19 @@ $(document).ready(function() {
             scrollTop: 0
         }, 1000);
         return false;
+    });
+
+    // ----------------
+
+    $(".checkout_list p").on("click", function(e) {
+      e.preventDefault();
+      parent = $(this).closest(".checkout_dr");
+      val = $(this).text();
+      parent.find(".checkout_val p").text(val);
+      parent.find("input[type='hidden']").val(val);
+      parent.removeClass("active");
+      parent.find("p").removeClass("active");
+      $(this).addClass("active");
     });
 
 
