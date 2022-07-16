@@ -1070,6 +1070,10 @@ section  > .row {
     background: rgba(120, 131, 222, .59);
 }
 
+.main_nav > li:hover > a {
+    background: rgba(120, 131, 222, .59);
+}
+
 .main_nav li .products_dr {
     max-width: 1220px;
     margin: 0 auto;
