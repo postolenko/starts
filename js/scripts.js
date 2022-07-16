@@ -25,6 +25,7 @@ function getScrollBtnParams() {
 function getNavParams() {
   leftCoord = $(".leftCoord").offset().left;
   $(".products_dr").offset({left: leftCoord});
+  $(".products_dr").width($(".leftCoord").width());
 }
 
 $(window).load(function() {
@@ -79,6 +80,7 @@ $(window).load(function() {
 $(window).resize(function() {
   getMainNavParams();
   getScrollBtnParams();
+  getNavParams();
 });
 
 $(document).scroll(function() {
@@ -90,6 +92,7 @@ $(document).ready(function() {
 
   getMainNavParams();
   getScrollBtnParams();
+  getNavParams();
 
   $(".dr").each(function() {
     drContent = $(this).find(".dr_content");
@@ -379,7 +382,6 @@ $(document).ready(function() {
 
   $(".main_nav li").on("mouseover", function() {
     getNavParams();
-    $(".products_dr").width($(".leftCoord").width());
   });
   
 
