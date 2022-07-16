@@ -22,6 +22,11 @@ function getScrollBtnParams() {
   }
 }
 
+function getNavParams() {
+  leftCoord = $(".leftCoord").offset().left;
+  $(".products_dr").offset({left: leftCoord});
+}
+
 $(window).load(function() {
   if($(".scroll_y").length > 0) {
     $(".scroll_y").mCustomScrollbar();
@@ -325,5 +330,57 @@ $(document).ready(function() {
       $(this).addClass("active");
     });
 
+    // ---------------
+
+  if( $(".goods_slider_2").length > 0 ) {
+    $(".goods_slider_2").not(".slick-initialized").slick({
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 1200,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        asNavFor: '.miniatures_2'
+    });
+
+    $(".miniatures_2").not(".slick-initialized").slick({
+      dots: true,
+      arrows: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      speed: 1200,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      centerMode: true,
+      asNavFor: '.goods_slider_2',
+      prevArrow: '<button class="slick-prev small_arrow_2 prev_small" aria-label="Previous" type="button"><img src="img/slick_left_2.svg"></button>',
+      nextArrow: '<button class="slick-next small_arrow_2 next_small" aria-label="Next" type="button"><img src="img/slick_right_2.svg"></button>',
+      // fade: true,
+      // responsive: [
+      //     {
+      //       breakpoint: 900,
+      //       settings: {
+      //         slidesToShow: 2,
+      //         slidesToScroll: 2
+      //       }
+      //     },
+      //     {
+      //       breakpoint: 540,
+      //       settings: {
+      //         slidesToShow: 1,
+      //         slidesToScroll: 1
+      //       }
+      //     }
+      //   ]
+    });
+  }
+
+  $(".main_nav li").on("mouseover", function() {
+    getNavParams();
+    $(".products_dr").width($(".leftCoord").width());
+  });
+  
 
 });

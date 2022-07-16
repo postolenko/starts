@@ -8,3 +8,4 @@
 # http://postolenko.github.io/starts/articles_2.html
 # http://postolenko.github.io/starts/articles_3.html
 # http://postolenko.github.io/starts/find_questions.html
+# http://postolenko.github.io/starts/card.html
