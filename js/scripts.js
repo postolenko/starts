@@ -374,13 +374,40 @@ $(document).ready(function() {
 
   $(".main_nav li").on("mouseover", function() {
     leftCoord = $(".leftCoord").offset().left;
-    $(".products_dr").offset({left: leftCoord});
-    $(".products_dr").width($(".leftCoord").width());
+    dr = $(this).find(".products_dr");
+    dr.offset({left: leftCoord});
+    dr.width($(".leftCoord").width());
   });
 
   $(".main_nav li").on("mousealive", function() {
-    $(".products_dr").offset({left: 0});
+    dr = $(this).find(".products_dr");
+    dr.offset({left: 0});
   });
-  
+
+  // --------------
+
+  $(".count_box button").click(function(e) {
+    e.preventDefault();
+    parentBlock = $(this).closest(".count_box");
+    countInput = parentBlock.find(".count_num_input input");
+    countVal = countInput.val();
+    if(countVal == "") {
+        countVal = 1;
+    }
+    if( $(this).hasClass("minus_btn") && countVal > 1 ) {
+        countVal--;
+    } else if( $(this).hasClass("plus_btn")) {
+        countVal++;
+    }
+    countInput.val(countVal);
+  });
+
+  // ---------------
+
+  $(".del_btn").on("click", function(e) {
+    e.preventDefault();
+    parent = $(this).closest(".table_row");
+    parent.remove();
+  });
 
 });
