@@ -5148,20 +5148,22 @@ div.rateit_4.svg div.rateit-preset {
     padding: 5px 0 5px 7px;
 }
 
-.bag_table {
+/*.bag_table {
     margin: 45px 0 45px;
 }
-
+*/
 .bag_table .table_row {
     display: flex;
     display: -webkit-flex;
     background: rgba(220, 224, 255, .25);
     border: 1px solid #C2C8F9;
+    border-bottom: none;
 }
 
 .bag_table .table_row:last-child {
     border-radius: 0 0 20px 20px;
     -webkit-border-radius: 0 0 20px 20px;
+    border-bottom: 1px solid #C2C8F9;
 }
 
 .bag_table .table_row.table_header .cell {
@@ -6056,12 +6058,12 @@ div.rateit_4.svg div.rateit-preset {
 }
 
 .scroll_table_wrapp .mCSB_scrollTools {
-    width: 16px;
+    width: 8px;
     right: 10px;
 }
 
 .scroll_table_wrapp .mCSB_scrollTools .mCSB_draggerRail {
-    width: 16px;
+    width: 8px;
     height: calc(100% - 20px);
     margin: 10px auto;
     -webkit-border-radius: 8px;
@@ -6074,7 +6076,7 @@ div.rateit_4.svg div.rateit-preset {
 }
 
 .scroll_table_wrapp .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-    width: 16px;
+    width: 8px;
     height: calc(100% - 20px);
     margin: 10px auto;
     -webkit-border-radius: 8px;
