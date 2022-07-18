@@ -58,6 +58,10 @@ $(window).load(function() {
     $(".scrollbox_2").mCustomScrollbar();
   };
 
+  if($(".scroll_table_wrapp").length > 0) {
+    $(".scroll_table_wrapp").mCustomScrollbar();
+  };
+
   index = 0;
   $('.good_slider .video_slide').each(function() {
     index++;

@@ -12,3 +12,5 @@
 # http://postolenko.github.io/starts/bag.html
 # http://postolenko.github.io/starts/checkout.html
 # http://postolenko.github.io/starts/delivery_method.html
+# http://postolenko.github.io/starts/history_order.html
+# http://postolenko.github.io/starts/history_order_active.html

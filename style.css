@@ -56,6 +56,45 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-SemiBold.eot');
+    src: url('fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('fonts/Montserrat-SemiBold.ttf') format('truetype'),
+        url('fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.eot');
+    src: url('fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff'),
+        url('fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Medium.eot');
+    src: url('fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('fonts/Montserrat-Medium.woff') format('woff'),
+        url('fonts/Montserrat-Medium.ttf') format('truetype'),
+        url('fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 /*-------------------------------------------*/
 /* BASIC SETUP */
 /*-------------------------------------------*/
@@ -2634,10 +2673,11 @@ div.svg div.rateit-preset {
     -webkit-align-items: center;
     border-radius: 20px;
     -webkit-border-radius: 20px;
-    padding: 10px 40px;
+    padding: 10px 38px;
     background: #fff;
     border: 1px solid #CED3FF;
     text-align: center;
+    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
@@ -5140,13 +5180,16 @@ div.rateit_4.svg div.rateit-preset {
 }
 
 .bag_table .table_row.table_header {
-    min-height: 39px;
     margin-bottom: 1px;
     display: flex;
     display: -webkit-flex;
     align-items: center;
     -webkit-align-items: center;
     background: transparent;
+}
+
+.bag_table .table_row.table_header .cell {
+    min-height: 39px;
 }
 
 .bag_table .table_row .cell:nth-child(1) {
@@ -5298,6 +5341,7 @@ div.rateit_4.svg div.rateit-preset {
 }
 
 .price {
+    font-family: 'Montserrat';
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
@@ -5727,6 +5771,334 @@ div.rateit_4.svg div.rateit-preset {
 
 /*-- Section 1 - History Order Page --*/
 
+.two_cols_2 {
+    display: flex;
+    display: -webkit-flex;
+    0margin: 10px 0 75px 0;
+}
+
+.two_cols_2 > .left_cols {
+    width: 190px;
+    padding: 10px 10px 10px 0;
+}
+
+.two_cols_2 > .right_cols {
+    width: calc(100% - 190px);
+    padding: 28px 0 10px 10px;
+}
+
+.menu_2_wrapp {
+    padding: 19px 0 13px 0;
+    border: 1px solid #A3ADFF;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.menu_2_list {
+
+}
+
+.menu_2_list > li {
+    padding: 3px 0;
+}
+
+.icon_link {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    min-height: 43px;
+    padding: 5px 13px 5px 13px;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background;
+    transition-duration: .3s;
+    transition-timing-function: ease; 
+}
+
+.icon_link:link,
+.icon_link:visited {
+    background: rgba(163, 173, 255, 0);
+}
+
+.icon_link:active,
+.icon_link.active {
+    background: rgba(163, 173, 255, 0.25);
+}
+
+.icon_link:hover {
+    background: rgba(163, 173, 255, 0.25);
+}
+
+.icon_link > div:nth-child(1) {
+    width: 30px;
+}
+
+.icon_link > div:nth-child(2) {
+    width: calc(100% - 30px);
+}
+
+.icon_link > div:nth-child(1) img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.icon_link p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3A4178;
+}
+
+
+.h2_wrapp_3 {
+
+}
+
+.h2_wrapp_3 h2 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    color: #3A4178;
+}
+
+.tabs_2 {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    margin: 10px -4.5px;
+}
+
+.tabs_2 li {
+    padding: 4.5px;
+}
+
+.order_table {
+    margin-top: 33px;
+}
+
+.order_table .table_row {
+
+}
+
+.order_table_header {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-bottom: 1px;
+    border: 1px solid #C2C8F9;
+    border-radius: 16px 16px 0 0;
+    -webkit-border-radius: 16px 16px 0 0;
+}
+
+.order_table_header > .cell {
+    padding: 10px 10px;
+    min-height: 39px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    border-right: 1px solid #C2C8F9;
+}
+
+.order_table_header > .cell:last-child {
+    border-right: none;
+}
+
+.order_table_header > .cell:nth-child(1) {
+    width: 46%;
+    padding-left: 0;
+}
+
+.order_table_header > .cell:nth-child(2) {
+    width: 18%;
+}
+
+.order_table_header > .cell:nth-child(3) {
+    width: 18%;
+}
+
+.order_table_header > .cell:nth-child(4) {
+    width: 18%;
+}
+
+.order_table_header h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #5D6178;
+}
+
+.order_table_row {
+    display: flex;
+    display: -webkit-flex;
+    border-top: 1px solid #C2C8F9;
+    /*border-bottom: none;*/
+}
+
+.order_table_row:last-child {
+    /*border-bottom: none;*/
+    /*border-radius: 0 0 16px 16px;*/
+}
+
+.scroll_table_wrapp {
+    border: 1px solid #C2C8F9;
+    border-radius: 0 0 16px 16px;
+    overflow: hidden;
+    max-height: 288px;
+}
+
+.order_table_row > .cell {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    border-right: 1px solid #C2C8F9;
+}
+
+.order_table_row:nth-child(1) {
+    border-top: none;
+}
+
+.order_table_row > .cell:nth-child(1) {
+    width: 46%;
+    padding-left: 0;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+.order_table_row > .cell:nth-child(2) {
+    width: 18%;
+}
+
+.order_table_row > .cell:nth-child(3) {
+    width: 18%;
+}
+
+.order_table_row > .cell:nth-child(4) {
+    width: 18%;
+}
+
+.order_table_row > .cell:last-child {
+    border-right: none;
+}
+
+.bag_thumb_2 {
+    width: 100%;
+}
+
+.bag_thumb_2 > div:nth-child(1) {
+    width: 166px;
+}
+
+.bag_thumb_2 > div:nth-child(2) {
+    width: calc(100% - 166px);
+}
+
+.bag_img_box {
+    width: 145px;
+    border: 1px solid #C2C8F9;
+    margin: -1px 0 -1px -1px;
+}
+
+.order_table_row:last-child .bag_img_box {
+    border-radius: 0 0 16px 16px;
+}
+
+.bag_thumb_2 h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3A4178;
+}
+
+.order_table_row {
+
+}
+
+.order_table_row > p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.bag_price {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3A4178;
+}
+
+.scroll_table_wrapp .mCSB_scrollTools {
+    width: 16px;
+    right: 10px;
+}
+
+.scroll_table_wrapp .mCSB_scrollTools .mCSB_draggerRail {
+    width: 16px;
+    height: calc(100% - 20px);
+    margin: 10px auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.scroll_table_wrapp .mCSB_scrollTools .mCSB_draggerRail {
+    background: rgba(172, 175, 204, .34) !important;
+}
+
+.scroll_table_wrapp .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 16px;
+    height: calc(100% - 20px);
+    margin: 10px auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.scroll_table_wrapp .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background: #A3ADFF !important;
+}
+
+.scroll_table_wrapp .mCSB_inside > .mCSB_container {
+    margin-right: 0;
+}
+
+.order_table_row.order_table_row_active .bag_img_box {
+    border-radius: 0;
+}
+
+.bag_thumbs_wrapp > .bag_thumb_2:last-child .bag_img_box {
+    -webkit-border-radius: 0 0 16px 16px;
+    -moz-border-radius: 0 0 16px 16px;
+    border-radius: 0 0 16px 16px;
+}
 
 
 /*-- /Section 1 - History Order Page --*/
