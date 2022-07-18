@@ -5886,7 +5886,7 @@ div.rateit_4.svg div.rateit-preset {
 .tabs_2 {
     justify-content: flex-start;
     -webkit-justify-content: flex-start;
-    margin: 10px -4.5px;
+    margin: 15px -4.5px 10px -4.5px;
 }
 
 .tabs_2 li {
