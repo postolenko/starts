@@ -414,4 +414,18 @@ $(document).ready(function() {
     parent.remove();
   });
 
+  // ---------------
+
+  $(".eye").on("click", function(e) {
+    e.preventDefault();
+    parent = $(this).closest(".password_input");
+    parent.toggleClass("visible");
+    $(this).toggleClass("visible");
+  });
+
+  $(".pass_input").on("change", function() {
+    parent = $(this).closest(".password_input");
+    parent.find(".pass_input").val($(this).val());
+  });
+
 });

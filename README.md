@@ -15,3 +15,4 @@
 # http://postolenko.github.io/starts/history_order.html
 # http://postolenko.github.io/starts/history_order_active.html
 # http://postolenko.github.io/starts/reviews.html
+# http://postolenko.github.io/starts/profile_edit.html

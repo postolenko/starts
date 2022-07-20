@@ -4802,6 +4802,8 @@ div.rateit_4.svg div.rateit-preset {
 
 .input_box_title h3 {
     padding-bottom: 6px;
+    font-family: 'Montserrat';
+    font-weight: 400;
     font-size: 14px;
     line-height: 150%;
     color: #636363;
@@ -6234,10 +6236,252 @@ div.rateit_5.svg div.rateit-preset {
 
 /*-- /Section 1 - Reviews Page --*/
 
+/*-- Section 1 - Profile Edit Page --*/
 
+.profile_wrapp {
 
+}
 
+.user_profile {
+    padding: 39px 0 39px 0;
+}
 
+.user_profile h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    color: #5D6178;
+    text-transform: capitalize;
+}
+
+.status_wrapp {
+    padding-top: 10px;
+}
+
+.status_inlines {
+    display: flex;
+    display: -webkit-flex;
+    margin: 4px -10px;
+}
+
+.status_inlines > div {
+    padding: 0 10px;
+}
+
+.status_wrapp p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #5D6178;
+}
+
+.status_inlines {
+
+}
+
+.status_inlines h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #5D6178;
+}
+
+.status_stars {
+    height: 34px;
+    padding: 0 10px;
+    background: linear-gradient(207.61deg, #7785F8 17.17%, #3A4178 133.59%);
+    background: -webkit-linear-gradient(207.61deg, #7785F8 17.17%, #3A4178 133.59%);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    position: relative;
+}
+
+.status_stars:before {
+    display: block;
+    height: 28px;
+    width: 100%;
+    content: "";
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.stars_list {
+    display: flex;
+    display: -webkit-flex;
+    position: relative;
+    top: 2px;
+    left: -6px;
+}
+
+.stars_list li {
+    width: 22px;
+    line-height: 1;
+}
+
+.stars_list li img {
+
+}
+
+.profile_table {
+    padding: 13px 0 20px 0;
+}
+
+.profile_table > .table_row {
+    display: flex;
+    display: -webkit-flex;
+    padding: 3px 0;
+}
+
+.profile_table > .table_row > div:nth-child(1) {
+    width: 110px;
+    padding: 5px 5px 5px 0;
+}
+
+.profile_table > .table_row > div:nth-child(2) {
+    width: calc(100% - 110px);
+    padding: 5px 0 5px 5px;
+}
+
+.profile_table h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #5D6178;
+}
+
+.profile_table p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: lowercase;
+    color: #5D6178;   
+}
+
+.password_wrapp {
+    padding: 25px 0 20px 0;
+}
+
+.password_wrapp_title {
+    display: flex;
+    display: -webkit-flex;
+    margin: 0 -7px;
+}
+
+.password_wrapp_title > div {
+    padding: 0 7px;
+}
+
+.password_wrapp_title h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #3A4178;
+}
+
+.input_box {
+    margin: 13px 0;
+}
+
+.password_input {
+    max-width: 400px;
+    position: relative;
+}
+
+.password_input input {
+    color: #5D6178;
+}
+
+.eye {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-image: url(img/eye.svg);
+    cursor: pointer;
+}
+
+.eye.visible {
+    background-image: url(img/eye_hidden.svg);
+}
+
+.password_input .eye {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 2;
+}
+
+.password_input input.green {
+    background-position: calc(100% - 47px) center;
+}
+
+.password_input input.error {
+    background-position: calc(100% - 47px) center;
+}
+
+.password_input {
+    height: 45px;
+    position: relative;
+}
+
+.hidden_pass {
+
+}
+
+.show_pass {
+
+}
+
+.password_input .hidden_pass {
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+}
+
+.password_input .show_pass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+}
+
+.password_input.visible .hidden_pass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+}
+
+.password_input.visible .show_pass {
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+}
+
+.submit_password_wrapp {
+    padding: 15px 0 15px 0;
+}
+
+.submit_password_wrapp .blue_pill {
+    min-width: 170px;
+}
+
+/*-- /Section 1 - Profile Edit Page --*/
 
 
 
