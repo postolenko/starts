@@ -18,3 +18,4 @@
 # http://postolenko.github.io/starts/profile_edit.html
 # http://postolenko.github.io/starts/profile_edit_2.html
 # http://postolenko.github.io/starts/log_in.html
+# http://postolenko.github.io/starts/sign_up.html
