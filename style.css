@@ -6102,10 +6102,137 @@ div.rateit_4.svg div.rateit-preset {
     border-radius: 0 0 16px 16px;
 }
 
-
 /*-- /Section 1 - History Order Page --*/
 
+/*-- Section 1 - Reviews Page --*/
 
+.sect_reviews {
+    padding: 46px 0 51px 0;
+}
+
+.header_two_cols_2 {
+    display: flex;
+    display: -webkit-flex;
+    padding: 4px 0 3px 0;
+}
+
+.header_two_cols_2 > .left_col {
+    width: 45%;
+    padding: 10px 10px 10px 0;
+}
+
+.header_two_cols_2 > .right_col {
+    width: 55%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    padding: 10px 0 10px 10px;
+}
+
+.header_two_cols_2 h3 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #3A4178;
+}
+
+.rev_inlines {
+    display: flex;
+    display: -webkit-flex;
+    margin: 0 -10px;
+}
+
+.rev_inlines > div {
+    padding: 5px 10px;
+}
+
+.rev_inlines h3 {
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #3A4178;
+}
+
+.rateit_5 {
+    width: 160px !important;
+    height: 30px;
+}
+
+div.rateit_5.svg div.rateit-range {
+    background: url(img/star_empty.svg);
+    background-size: 28px 30px;
+}
+div.rateit_5.svg div.rateit-hover {
+    background: url(img/star.svg);
+    background-size: 28px 30px;
+}
+div.rateit_5.svg div.rateit-selected {
+    background: url(img/star.svg);
+    background-size: 28px 30px;
+}
+div.rateit_5.svg div.rateit-preset {
+    background: url(img/star.svg);
+    background-size: 28px 30px;
+}
+
+.two_cols_3 {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.two_cols_3 > .left_col {
+    width: 305px;
+    padding: 10px 17px 10px 0;
+}
+
+.two_cols_3 > .right_col {
+    width: calc(100% - 305px);
+    padding: 10px 0 10px 17px;
+}
+
+.scroll_inner_2 {
+    height: 259px;
+}
+
+.scroll_sidebar_title_2 {
+    min-height: 61px;
+}
+
+.scroll_sidebar_title_2 h3 {
+    font-size: 24px;
+}
+
+.form_wrapp_2 {
+    padding: 0;
+}
+
+.form_wrapp_2 .number_img {
+    width: 180px;
+}
+
+.captcha_templ_2 {
+    padding: 21px 0 15px;
+}
+
+.captcha_templ_2 > div:nth-child(1) {
+    width: 190px;
+}
+
+.captcha_templ_2 > div:nth-child(2) {
+    width: calc(100% - 190px);
+    padding: 5px 0 5px 10px;
+}
+
+.captcha_form_2 > div:nth-child(1) {
+    padding: 5px 15px 5px 0;
+}
+
+/*-- /Section 1 - Reviews Page --*/
 
 
 
