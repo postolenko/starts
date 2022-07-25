@@ -3584,6 +3584,22 @@ div.rateit_3.svg div.rateit-preset {
     margin: 8px 0;
 }
 
+.rate_it_wrapp {
+    padding: 20px 0 0 0;
+}
+
+.rate_it_wrapp .rateit {
+    display: none;
+}
+
+.rate_it_wrapp.active .rate_pill {
+    display: none;
+}
+
+.rate_it_wrapp.active .rateit {
+    display: block;
+}
+
 .article_3 p {
     padding: 13px 0;
     font-size: 20px;
@@ -3754,6 +3770,8 @@ p.num_thumb_val {
 }
 
 .lists_item li {
+    display: flex;
+    display: -webkit-flex;
     padding: 5px 0;
     font-weight: 500;
     font-size: 20px;
@@ -3762,10 +3780,14 @@ p.num_thumb_val {
 }
 
 .list_num {
-    margin-right: 5px;
+    display: block;
+    margin-right: 10px;
+    font-family: "Montserrat";
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
+    position: relative;
+    top: -2px;
     background: linear-gradient(166.52deg, #707FFF -11.39%, #D2D6FF 95.9%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

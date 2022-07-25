@@ -562,4 +562,12 @@ $(document).ready(function() {
       }
   });
 
+  // --------------
+
+  $(".rate_pill").on("click", function(e) {
+    e.preventDefault();
+    parent = $(this).closest(".rate_it_wrapp");
+    parent.addClass("active");
+  });
+
 });
