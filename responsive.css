@@ -185,6 +185,14 @@
 
 /*-- /Section 6 - Main Page --*/
 
+/*-- Section 3 - Product Page --*/
+
+.video_big {
+    height: 500px;
+}
+
+/*-- /Section 3 - Product Page --*/
+
 /*-- Footer --*/
 
 .to_top_btn {
@@ -324,6 +332,7 @@
 }
 
 /*-- /Section 6 - Main Page --*/
+
 
 }
 
@@ -970,6 +979,14 @@
     padding: 1px 0 2px 10px;
 }
 
+.res_header.scroll .resp_left_shape {
+    bottom: -4px;
+}
+
+.res_header.scroll .resp_right_shape {
+    bottom: -4px;
+}
+
 /*-- /Header --*/
 
 /*-- Section 1 - Main Page --*/
@@ -1193,6 +1210,39 @@ h2 {
 }
 
 /*-- /Section 6 - Main Page --*/
+
+/*-- Section 3 - Product Page --*/
+
+.sect_3_p_p {
+	position: relative;
+	background: radial-gradient(69.18% 82.68% at 50.13% 50%, #F5F6FF 0%, #F8F8F8 100%);
+}
+
+.sect_3_p_p:before {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	width: 351px;
+	height: 258px;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0) 100%);
+	border: 1px solid #FFF;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.sect_1_shape_11 {
+	display: none;
+}
+
+.video_big {
+    height: 400px;
+}
+
+/*-- /Section 3 - Product Page --*/
 
 
 }
@@ -1549,6 +1599,18 @@ p {
 }
 
 /*-- /Section 3 - Main Page --*/
+
+/*-- Section 3 - Product Page --*/
+
+.video_big_wrapp {
+    margin: 34px 0 33px 0;
+}
+
+.video_big {
+    height: 200px;
+}
+
+/*-- /Section 3 - Product Page --*/
 	
 }
 

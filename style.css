@@ -3474,6 +3474,8 @@ div.rateit_3.svg div.rateit-preset {
 .video_big {
     border-radius: 20px;
     -webkit-border-radius: 20px;
+    object-fit: cover;
+    height: 679px;
 }
 
 /*-- /Section 3 - Product Page --*/
