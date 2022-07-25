@@ -1392,6 +1392,52 @@ h2 {
 
 /*-- /Section 1 - Contacts Page --*/
 
+/*-- Section 1 - Payment Page --*/
+
+.faq_shape_1,
+.faq_shape_2,
+.sect_1_shape_11 {
+	display: none;
+}
+
+.faq_article.payment_article {
+	text-align: left;
+}
+
+.payment_article .faq_article_title {
+    margin: 48px 0 20px 0;
+    text-align: left;
+}
+
+.payment_article .faq_article_title:after {
+    width: 136px;
+    margin: 21px 0 10px 0;
+}
+
+.payment_item {
+	align-items: center;
+	--webkit-align-items: center;
+}
+
+.payment_item p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.payment_article.faq_article > .left_col > img {
+    left: 0;
+}
+
+/*-- /Section 1 - Payment Page --*/
+
+/*-- Section 1 - Delivery Page --*/
+
+.del_thumb p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*-- /Section 1 - Delivery Page --*/
 
 }
 
@@ -1507,6 +1553,20 @@ h2 {
 }
 
 /*-- /Section 5 - Product Page --*/
+
+/*-- Section 1 - Delivery Page --*/
+
+.del_thumbs {
+    margin: 23px 0 0 0;
+}
+
+.del_thumb {
+    width: 100%;
+    margin: 15px 0;
+    padding: 19px 19px 24px 19px;
+}
+
+/*-- /Section 1 - Delivery Page --*/
 
 /*-- Footer --*/
 
@@ -1803,6 +1863,32 @@ p {
 }
 
 /*-- /Section 4 - Product Page --*/
+
+/*-- Section 1 - Payment Page --*/
+
+.sect_1_payment {
+    padding: 51px 0 49px 0;
+}
+
+.payment_items {
+    padding: 8px 0 10px 0;
+}
+
+.payment_item p {
+	font-size: 14px;
+    line-height: 21px;
+}
+
+/*-- /Section 1 - Payment Page --*/
+
+/*-- Section 1 - Delivery Page --*/
+
+.del_thumb p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/*-- /Section 1 - Delivery Page --*/
 
 }
 
