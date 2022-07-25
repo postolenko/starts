@@ -952,7 +952,7 @@
 }
 
 .resp_catalog_scroll {
-	height: calc(100vh - 250px);
+	max-height: calc(100vh - 250px);
 }
 
 .resp_catalog_scroll .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
@@ -1512,6 +1512,38 @@ h2 {
 }
 
 /*-- /Section 1 - Delivery Page --*/
+
+/*-- Section 1 - Checkout Page --*/
+
+.sect_checkout {
+	background: radial-gradient(69.18% 82.68% at 50.13% 50%, #F5F6FF 0%, #F3F3F3 100%);
+}
+
+.input_two_cols > div:nth-child(odd) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.input_two_cols > div:nth-child(even) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.form_inputs {
+    padding: 17px 0 3px 0;
+}
+
+.input_box {
+    margin: 7px 0;
+}
+
+.input_link_wrapp {
+    position: relative;
+   	top: 0;
+    padding-top: 16px;
+}
+
+/*-- /Section 1 - Checkout Page --*/
 
 }
 

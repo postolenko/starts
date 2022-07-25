@@ -4809,6 +4809,8 @@ div.rateit_4.svg div.rateit-preset {
 .input_two_cols {
     display: flex;
     display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 .input_two_cols > div:nth-child(odd) {
