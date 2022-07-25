@@ -1568,6 +1568,18 @@ h2 {
 
 /*-- /Section 1 - Delivery Page --*/
 
+/*-- Section 1 - Articles Page --*/
+
+.sect_1_articles {
+    padding: 30px 0 19px 0;
+}
+
+.tabs_wrapp_2 {
+    padding-top: 0;
+}
+
+/*-- /Section 1 - Articles Page --*/
+
 /*-- Footer --*/
 
 .footer_section {
