@@ -1,3 +1,18 @@
+@media only screen and (max-width: 1360px) {
+
+/*-- Footer --*/
+
+.to_top_btn {
+    width: 100px;
+    height: 100px;
+	bottom: 21px;
+	right: 0;
+}
+
+/*-- /Footer --*/
+
+}
+
 @media only screen and (max-width: 1240px) {
 
 /*-- Header --*/
@@ -193,17 +208,6 @@
 
 /*-- /Section 3 - Product Page --*/
 
-/*-- Footer --*/
-
-.to_top_btn {
-    width: 100px;
-    height: 100px;
-	bottom: 21px;
-	right: 0;
-}
-
-/*-- /Footer --*/
-
 }
 
 @media only screen and (max-width: 1124px) {
@@ -247,9 +251,33 @@
 
 /*-- /Header --*/
 
+/*-- Section 1 - Contacts Page --*/
+
+.contacts_templ > .left_col {
+    width: 260px;
+}
+
+.contacts_templ > .right_col {
+    width: calc(100% - 260px);
+}
+
+.contact_thumb h3 {
+    font-size: 20px;
+}
+
+/*-- /Section 1 - Contacts Page --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
+
+.visible_1024 {
+    display: block;
+}
+
+.novisible_1024 {
+	display: none;
+}
 
 /*-- Section 1 - Main Page --*/
 
@@ -333,6 +361,48 @@
 
 /*-- /Section 6 - Main Page --*/
 
+/*-- Section 1 - Contacts Page --*/
+
+.captcha_inlines {
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	width: 100%;
+	margin: 0 -6px;
+}
+
+.captcha_inlines > div {
+	width: 50%;
+	padding: 6px;
+}
+
+.captcha_templ {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.captcha_templ > div:nth-child(2) {
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+.captcha_form {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.captcha_form > div:nth-child(1) {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.captcha_form > div:nth-child(2) {
+    width: 100%;
+    padding: 5px 0;
+}
+
+/*-- /Section 1 - Contacts Page --*/
 
 }
 
@@ -1285,6 +1355,43 @@ h2 {
 }
 
 /*-- /Section 5 - Product Page --*/
+
+/*-- Section 1 - Contacts Page --*/
+
+.sect_1_contacts {
+    padding-top: 15px;
+}
+
+.contacts_shape_1,
+.contacts_shape_2,
+.contacts_shape_3 {
+	display: none;
+}
+
+.contacts_templ {
+    padding: 13px 0 2px 0;
+}
+
+.contacts_templ > .left_col {
+    width: 100%;
+}
+
+.contacts_templ > .right_col {
+    width: 100%;
+}
+
+.form_wrapp {
+    padding: 8px 0;
+}
+
+.number_img {
+	width: 100%;
+    max-width: 157px;
+    height: 62px;
+}
+
+/*-- /Section 1 - Contacts Page --*/
+
 
 }
 

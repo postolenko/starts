@@ -585,6 +585,10 @@ section  > .row {
     background: #F7F7F7;
 }
 
+.visible_1024 {
+    display: none;
+}
+
 .visible_767 {
     display: none;
 }
@@ -3898,6 +3902,13 @@ p.num_thumb_val {
 
 .contact_thumb > div:nth-child(2) {
     width: calc(100% - 80px);
+}
+
+.contact_thumb > div:nth-child(1) img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 57px;
 }
 
 .contact_thumb h3 {

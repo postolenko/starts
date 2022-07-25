@@ -141,18 +141,22 @@ $(window).resize(function() {
   $(".scroll_blue").css({
     "width" : "auto"
   });
-  leftCoord = $(".testimonial_scroll .mCSB_draggerContainer").offset().left;
-  leftSpanCoord = $(".testimonial_scroll .scroll_blue").offset().left;
-  width = leftSpanCoord - leftCoord;            
-  $(".testimonial_scroll .scroll_blue").css({
-    "width" : width + "px"
-  });
-  leftCoord = $(".tabs_wrapp .mCSB_draggerContainer").offset().left;
-  leftSpanCoord = $(".tabs_wrapp .scroll_blue").offset().left;
-  width = leftSpanCoord - leftCoord;            
-  $(".tabs_wrapp .scroll_blue").css({
-    "width" : width + "px"
-  });
+  if($(".testimonial_scroll").length > 0) {
+    leftCoord = $(".testimonial_scroll .mCSB_draggerContainer").offset().left;
+    leftSpanCoord = $(".testimonial_scroll .scroll_blue").offset().left;
+    width = leftSpanCoord - leftCoord;            
+    $(".testimonial_scroll .scroll_blue").css({
+      "width" : width + "px"
+    });
+  }
+  if($(".tabs_wrapp").length > 0) {
+    leftCoord = $(".tabs_wrapp .mCSB_draggerContainer").offset().left;
+    leftSpanCoord = $(".tabs_wrapp .scroll_blue").offset().left;
+    width = leftSpanCoord - leftCoord;            
+    $(".tabs_wrapp .scroll_blue").css({
+      "width" : width + "px"
+    });
+  }
 
 });
 
