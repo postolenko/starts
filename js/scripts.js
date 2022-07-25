@@ -310,24 +310,7 @@ $(document).ready(function() {
       slidesToScroll: 1,
       asNavFor: '.good_slider',
       prevArrow: '<button class="slick-prev small_arrow prev_small" aria-label="Previous" type="button"><img src="img/prev_small.svg"></button>',
-      nextArrow: '<button class="slick-next small_arrow next_small" aria-label="Next" type="button"><img src="img/next_small.svg"></button>',
-      // fade: true,
-      // responsive: [
-      //     {
-      //       breakpoint: 900,
-      //       settings: {
-      //         slidesToShow: 2,
-      //         slidesToScroll: 2
-      //       }
-      //     },
-      //     {
-      //       breakpoint: 540,
-      //       settings: {
-      //         slidesToShow: 1,
-      //         slidesToScroll: 1
-      //       }
-      //     }
-      //   ]
+      nextArrow: '<button class="slick-next small_arrow next_small" aria-label="Next" type="button"><img src="img/next_small.svg"></button>'
     });
   }
 
