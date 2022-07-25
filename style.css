@@ -3768,6 +3768,10 @@ p.num_thumb_val {
     left: 0;
 }
 
+.h2_wrapp_left h2{
+    font-family: "Montserrat";
+}
+
 .contacts_templ {
     display: flex;
     display: -webkit-flex;
@@ -5141,6 +5145,7 @@ div.rateit_4.svg div.rateit-preset {
     position: relative;
     top: -17px;
     right: -10px;
+    font-family: "Montserrat";
     font-weight: 700;
     font-size: 25px;
     line-height: 26px;
@@ -5294,6 +5299,10 @@ div.rateit_4.svg div.rateit-preset {
     color: #3A4178;
 }
 
+.bag_price_resp {
+    display: none;
+}
+
 .count_box {
     display: flex;
     display: -webkit-flex;
@@ -5351,6 +5360,7 @@ div.rateit_4.svg div.rateit-preset {
 
 .blue_p {
     text-transform: capitalize;
+    font-family: 'Manrope';
     font-size: 16px;
     line-height: 20px;
     color: #98A3FF;
