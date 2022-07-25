@@ -336,6 +336,7 @@ textarea:focus {
 
 .row {
     max-width: 1220px;
+    min-width: 340px;
     margin: 0 auto;
     padding: 0 25px;
     /*outline: 1px solid red;*/
@@ -584,6 +585,10 @@ section  > .row {
     background: #F7F7F7;
 }
 
+.visible_767 {
+    display: none;
+}
+
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
@@ -631,6 +636,8 @@ section  > .row {
 }
 
 .search_box {
+    max-width: 389px;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -1399,42 +1406,40 @@ section  > .row {
 /* ----- Responsive Menu Button ------ */
 
 .respmenubtn {
-    /*display: inline-block;*/
-    display: none;
-    vertical-align: top;
-    width: 45px;
-    height: 37px;
+    display: block;
+    width: 32px;
+    height: 32px;
     background: transparent;
     cursor: pointer;
     position: relative;
-    top: 6px;
+    top: 0;
     z-index: 11;
-    border: 1px solid transparent;
+    border: none;
 }
 
 .respmenubtn span {
     display: block;
-    width: 27px;
-    height: 2px;
-    background: #466896;
-    margin: 0 auto 7px auto;
-    -webkit-transition-property: transform, border, background;
+    width: 32px;
+    height: 4px;
+    background: #fff;
+    margin: 0 auto 5px auto;
+    -webkit-transition-property: transform;
     -webkit-transition-duration: .3s;
     -webkit-transition-timing-function: ease;
 
-    -moz-transition-property: transform, border, background;
+    -moz-transition-property: transform;
     -moz-transition-duration: .3s;
     -moz-transition-timing-function: ease;
 
-    -ms-transition-property: transform, border, background;
+    -ms-transition-property: transform;
     -ms-transition-duration: .3s;
     -ms-transition-timing-function: ease;
 
-    -o-transition-property: transform, border, background;
+    -o-transition-property: transform;
     -o-transition-duration: .3s;
     -o-transition-timing-function: ease;
 
-    transition-property: transform, border, background;
+    transition-property: transform;
     transition-duration: .3s;
     transition-timing-function: ease;
 }
@@ -1449,15 +1454,15 @@ section  > .row {
 }
 
 .respmenubtn:hover span {
-    background: #e9ba5f;
+    background: #fff;
 }
 
 .respmenubtn.active span {
     position: relative;
     width: 35px;
-    top: 2px;
-    left: 0;
-    background: #e9ba5f;
+    top: -1px;
+    left: -3px;
+    background: #fff;
 }
 
 .respmenubtn.active span:last-child {
@@ -1471,8 +1476,8 @@ section  > .row {
     transform: rotate(45deg);
     margin: 3px 0 0 0;
     position: relative;
-    top: 4px;
-    left: 5px;
+    top: 3px;
+    left: -1px;
 }
 
 .respmenubtn.active span:nth-child(2) {
@@ -1483,6 +1488,14 @@ section  > .row {
 }
 
 /* ----- / Responsive Menu Button ------ */
+
+.res_header {
+    display: none;
+}
+
+.resp_nav {
+    display: none;
+}
 
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
@@ -1549,6 +1562,7 @@ section  > .row {
 }
 
 .article p.blue {
+    font-style: italic;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -1556,7 +1570,8 @@ section  > .row {
 }
 
 .main_video_sect {
-    width: 668px;
+    max-width: 668px;
+    width: 100%;
     margin: 18px 0;
 }
 
@@ -1565,6 +1580,7 @@ section  > .row {
     height: 387px;
     border-radius: 18px;
     -webkit-border-radius: 18px;
+    object-fit: cover;
 }
 
 .logo_link {
@@ -1657,10 +1673,12 @@ section  > .row {
 }
 
 .single_title_h2 h2 {
+    font-family: 'Montserrat';
     padding: 3px 0;
 }
 
 .single_title p {
+    font-family: 'Montserrat';
     font-size: 20px;
     line-height: 24px;
     color: #5D6178;
@@ -1701,6 +1719,7 @@ section  > .row {
     border-radius: 20px;
     -webkit-border-radius: 20px;
     position: relative;
+    overflow: hidden;
 }
 
 .slider_1 {
@@ -1980,7 +1999,7 @@ section  > .row {
 }
 
 .scroll_sidebar_wrapp {
-
+    position: relative;
 }
 
 .scroll_sidebar_title {
@@ -2070,7 +2089,7 @@ section  > .row {
 
 .scroll_sidebar {
     padding: 15px 0;
-    background: rgba(240, 242, 253, 0.23);
+    background: #F0F2FD;
     border: 1px solid #A3ADFF;
     box-shadow: inset 0 4px 15px rgba(228, 228, 228, .25);
     -webkit-box-shadow: inset 0 4px 15px rgba(228, 228, 228, .25);
@@ -2080,6 +2099,7 @@ section  > .row {
 
 .scroll_inner {
     height: calc(100vh - 200px);
+    background: #F0F2FD;
 }
 
 .goods_list {
@@ -2203,6 +2223,7 @@ section  > .row {
 }
 
 .card_title h2 {
+    font-family: "Montserrat";
     padding: 2px 0;
     font-weight: 600;
     font-size: 36px;
@@ -2373,6 +2394,7 @@ div.svg div.rateit-preset {
 }
 
 .old_price {
+    font-family: "Montserrat";
     padding-right: 14px;
     font-size: 16px;
     line-height: 20px;
@@ -2381,12 +2403,14 @@ div.svg div.rateit-preset {
 }
 
 .disc_price {
+    font-family: "Montserrat";
     font-size: 16px;
     line-height: 20px;
     color: #98A3FF;
 }
 
 .actual_price {
+    font-family: "Montserrat";
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
@@ -2406,6 +2430,7 @@ div.svg div.rateit-preset {
     -webkit-box-shadow: 0 4px 15px rgba(189, 189, 189, .25);
     border-radius: 50px;
     -webkit-border-radius: 50px;
+    font-family: "Montserrat";
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -2459,6 +2484,16 @@ div.svg div.rateit-preset {
     margin-right: 14px;
 }
 
+.discount_cupon img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+}
+
+.card_descript_2 p {
+    font-family: "Montserrat";
+}
+
 .good_slider_wrapp {
 
 }
@@ -2486,6 +2521,7 @@ div.svg div.rateit-preset {
 }
 
 .good_miniature_slider .slide {
+    display: block !important;
     cursor: pointer;
     width: 118px !important;
     height: 118px;
@@ -2652,7 +2688,7 @@ div.svg div.rateit-preset {
 }
 
 .tabs_wrapp {
-    padding: 23px 0 23px 0;
+    padding: 23px 0 6px 0;
 }
 
 .tabs {
@@ -2660,6 +2696,7 @@ div.svg div.rateit-preset {
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
+    padding-bottom: 30px;
 }
 
 .tabs li {
@@ -2677,6 +2714,7 @@ div.svg div.rateit-preset {
     background: #fff;
     border: 1px solid #CED3FF;
     text-align: center;
+    white-space: nowrap;
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 18px;
@@ -2720,12 +2758,52 @@ div.svg div.rateit-preset {
     background: rgba(163, 173, 255, .29);
 }
 
+.tabs_wrapp .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    height: 9px;
+    margin: 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background: rgba(172, 175, 204, .43);
+    top: 7px;
+    position: relative;
+}
+
+.tabs_wrapp .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar:after {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: url(img/scroll_arrow.svg) no-repeat center;
+    position: absolute;
+    top: -16px;
+    left: calc(100% - 40px);
+    z-index: 2;
+}
+
+.tabs_wrapp .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    padding-bottom: 40px;
+}
+
+.tabs_wrapp .mCSB_horizontal.mCSB_inside > .mCSB_container {
+    margin-bottom: 20px;
+}
+
+.tabs_wrapp .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    height: 9px;
+    background: #A3ADFF;
+}
+
+.tabs_wrapp .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: calc(100% - 50px);
+    margin-left: 25px;
+}
+
 .gradients_thumbs {
     display: flex;
     display: -webkit-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    margin: 20px -16px 20px -16px;
+    margin: 10px -16px 20px -16px;
 }
 
 .gradients_thumbs .col_big {
@@ -2838,6 +2916,7 @@ div.svg div.rateit-preset {
     width: 57px;
     height: 16px;
     background: url(img/white_arrow_2.svg) no-repeat center;
+    background-size: contain;
 }
 
 .gradient_thumb_footer .arrow_right_white {
@@ -2928,6 +3007,10 @@ div.rateit_2.svg div.rateit-preset {
 .rew_two_cols > .left_col {
     width: 33.33%;
     padding-right: 15px;
+}
+
+.rew_two_cols_main > .left_col {
+    padding-top: 9px;
 }
 
 .rew_two_cols > .right_col {
@@ -3310,6 +3393,10 @@ div.rateit_3.svg div.rateit-preset {
 }
 
 .dropdown_item_title {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
     min-height: 48px;
     padding: 7px 53px 7px 10px;
     background: linear-gradient(90.36deg, #DBDFFF -6.07%, #D1E3FF 101.68%);
@@ -3319,6 +3406,14 @@ div.rateit_3.svg div.rateit-preset {
     border-radius: 8px;
     -webkit-border-radius: 8px;
     position: relative;
+}
+
+.dropdown_item_title h3 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #3A4178;
 }
 
 .dropdown_item_title:after {
@@ -3425,6 +3520,14 @@ div.rateit_3.svg div.rateit-preset {
     background: #C2DFF9;
 }
 
+.single_title_h2.single_title_h2_2.rew:after {
+    background: rgba(255, 255, 255, .44);
+}
+
+.rew_mail {
+    padding-left: 8px;
+}
+
 .transparent_pill {
     display: inline-flex;
     display: -webkit-inline-flex;
@@ -3477,10 +3580,6 @@ div.rateit_3.svg div.rateit-preset {
 
 .header_two_cols_2 .transparent_pill {
     margin: 8px 0;
-}
-
-.article_3 {
-
 }
 
 .article_3 p {
@@ -6677,6 +6776,7 @@ footer {
     background-image: url(img/footer_shape.png);
     background-repeat: no-repeat;
     background-position: center bottom;
+    background-size: contain;
     padding: 55px 0 88px 0;
     z-index: 2;
 }
@@ -6866,6 +6966,10 @@ footer {
     height: auto;
 }
 
+.logo_footer_resp {
+    display: none;
+}
+
 .to_top_btn {
     width: 168px;
     height: 168px;
@@ -6896,6 +7000,14 @@ footer {
     transition-property: opacity;
     transition-duration: .3s;
     transition-timing-function: ease;
+}
+
+.to_top_btn img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .to_top_btn.visible {
