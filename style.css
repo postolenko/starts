@@ -6463,7 +6463,7 @@ div.rateit_5.svg div.rateit-preset {
     border-radius: 8px;
     -webkit-border-radius: 8px;
     max-width: 503px;
-    margin: 63px auto 115px auto;
+    margin: 45px auto 54px auto;
     padding: 21px 50px 13px 50px;
 }
 
@@ -6588,6 +6588,10 @@ div.rateit_5.svg div.rateit-preset {
 .log_submit_wrapp {
     padding: 16px 0 16px 0;
     text-align: center;
+}
+
+.captcha_title {
+    display: none;
 }
 
 /*-- /Section 1 - Log In Page --*/

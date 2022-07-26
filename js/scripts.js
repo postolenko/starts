@@ -557,4 +557,19 @@ $(document).ready(function() {
     parent.addClass("active");
   });
 
+  // --------------
+
+  $(".menu_2_title").on("click", function(e) {
+    e.preventDefault();
+    parent = $(this).closest(".menu_2_box");
+    dr = parent.find(".menu_2_wrapp");
+    if(parent.hasClass("active")) {
+      dr.slideUp(700);
+      parent.removeClass("active");
+    } else {
+      dr.slideDown(700);
+      parent.addClass("active");
+    }
+  });
+
 });

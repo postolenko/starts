@@ -1604,6 +1604,127 @@ h2 {
 
 /*-- /Section 1 - Delivery Method Page --*/
 
+/*-- Section 1 - Profile Edit Page --*/
+
+.two_cols_2 {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.two_cols_2 > .left_cols {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.two_cols_2 > .right_cols {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.h2_wrapp_3 {
+	padding: 23px 0 23px 0;
+	position: relative;
+}
+
+.h2_wrapp_3 h2 {
+    font-size: 32px;
+}
+
+.h2_wrapp_3:after {
+    display: block;
+    content: "";
+    width: 71px;
+    height: 8px;
+    background: #C2DFF9;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.menu_2_wrapp {
+	display: none;
+}
+
+.menu_2_title {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    min-height: 76px;
+    cursor: pointer;
+    background: linear-gradient(279.55deg, #F2F4FF -34.27%, #DCDFF3 114.53%);
+    background: -webkit-linear-gradient(279.55deg, #F2F4FF -34.27%, #DCDFF3 114.53%);
+    border: 1px solid #A3ADFF;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    position: relative;
+    margin-bottom: 2px;
+    padding: 10px 30px 10px 20px;
+    -webkit-transition-property: border-radius;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: border-radius;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: ease;
+    -ms-transition-property: border-radius;
+    -ms-transition-duration: .5s;
+    -ms-transition-timing-function: ease;
+    -o-transition-property: border-radius;
+    -o-transition-duration: .5s;
+    -o-transition-timing-function: ease;
+    transition-property: border-radius;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.menu_2_title:after {
+    display: block;
+    content: "";
+    width: 23px;
+    height: 24px;
+    background: url(img/arrow_down.svg) no-repeat center;
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 30px;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: .5s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: .5s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: .5s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+}
+
+.menu_2_box.active .menu_2_title:after {
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+}
+
+.menu_2_title h3 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	color: #3A4178;
+}
+
+/*-- /Section 1 - Profile Edit Page --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -1748,6 +1869,7 @@ h2 {
 /*-- Section 1 - Delivery Method Page --*/
 
 .sect_delivery {
+	background: radial-gradient(69.18% 82.68% at 50.13% 50%, #F5F6FF 0%, #F3F3F3 100%);
     padding: 17px 0 28px 0;
 }
 
@@ -1767,6 +1889,80 @@ h2 {
 }
 
 /*-- /Section 1 - Delivery Method Page --*/
+
+/*-- Section 1 - Profile Edit Page --*/
+
+.sect_reviews {
+    padding: 20px 0 40px 0;
+}
+
+.status_inlines h3 {
+    font-size: 20px;
+}
+
+.status_wrapp p {
+    font-size: 18px;
+}
+
+.profile_table h3 {
+    font-size: 18px;
+}
+
+.profile_table p {
+    font-size: 18px;
+}
+
+.password_wrapp_title {
+	padding-bottom: 10px;
+}
+
+/*-- /Section 1 - Profile Edit Page --*/
+
+/*-- Section 1 - Log In Page --*/
+
+.sect_1_log {
+	background: radial-gradient(69.18% 82.68% at 50.13% 50%, #F5F6FF 0%, #F3F3F3 100%)
+}
+
+.number_img_2 {
+    height: 76px;
+}
+
+.captcha_box {
+    padding: 49px 0 21px 0;
+}
+
+.captcha_title {
+	display: block;
+}
+
+.captcha_title h3 {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 19px;
+	color: #5D6178;
+}
+
+.captcha_two_cols {
+    padding: 0;
+}
+
+.captcha_two_cols > div:nth-child(1) {
+    width: 50%;
+    padding: 10px 10px 10px 0;
+}
+
+.captcha_two_cols > div:nth-child(2) {
+    width: 50%;
+    padding: 10px 0 10px 10px;
+}
+
+.captcha_two_cols .number_img_2 {
+    height: 45px;
+}
+
+
+/*-- /Section 1 - Log In Page --*/
 
 /*-- Footer --*/
 
@@ -2227,6 +2423,14 @@ p {
 }
 
 /*-- /Section 1 - Delivery Page --*/
+
+/*-- Section 1 - Log In Page --*/
+
+.log_form_box {
+    padding: 21px 40px 13px 40px;
+}
+
+/*-- /Section 1 - Log In Page --*/
 
 }
 
