@@ -5634,7 +5634,7 @@ div.rateit_4.svg div.rateit-preset {
     height: 30px;
     background: url(img/radio.svg) no-repeat center;
     position: absolute;
-    top: 7px;
+    top: 10px;
     left: 33px;
     z-index: 2;
 }
@@ -5690,6 +5690,10 @@ div.rateit_4.svg div.rateit-preset {
     font-size: 20px;
     line-height: 30px;
     color: #5D6178;
+}
+
+.del_inlines {
+    display: none;
 }
 
 .tr_up {
