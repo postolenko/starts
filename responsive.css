@@ -1776,6 +1776,100 @@ h2 {
 
 /*-- /Section 1 - Reviews Page --*/
 
+/*-- Section 1 - Find Questions Page --*/
+
+.sect_1_find_q {
+	padding: 33px 0 32px 0;
+	background: radial-gradient(69.18% 82.68% at 50.13% 50%, #F5F6FF 0%, #D4D9FF 100%)
+}
+
+.search_templ {
+    padding: 8px 0 24px 0;
+}
+
+.dr_inlines {
+	display: flex;
+	display: -webkit-flex;
+}
+
+.dr_inlines > div {
+	padding: 0 10px;
+}
+
+.search_templ > .left_col {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.search_templ > .right_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.dr_inlines .dropdown_wrapp_2 {
+	width: 344px;
+}
+
+.f_dr_title {
+    padding: 7px 40px 7px 40px;
+}
+
+.f_dr_title label {
+    font-size: 16px;
+}
+
+.q_text_wrapp {
+    padding-bottom: 0;
+}
+
+.dr_link {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.f_dr_content p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.resp_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    height: 9px;
+    margin: 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background: rgba(172, 175, 204, .43);
+}
+
+.resp_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar {
+    height: 9px;
+    width: 50px !important;
+    margin: 0 auto;
+    background: #A3ADFF;
+}
+
+.resp_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar:after {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: url(img/scroll_arrow.svg) no-repeat center;
+    position: absolute;
+    top: -16px;
+    left: calc(100% - 40px);
+    z-index: 2;
+}
+
+.resp_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: 10px;
+}
+
+.resp_scroll .mCSB_horizontal.mCSB_inside > .mCSB_container {
+    margin-bottom: 36px;
+}
+
+/*-- /Section 1 - Find Questions Page --*/
+
+
 }
 
 @media only screen and (max-width: 767px) {

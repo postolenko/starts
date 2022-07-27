@@ -4314,11 +4314,11 @@ p.num_thumb_val {
     display: none;
 }
 
-.dr_link.active .hidden {
+.dropdown_wrapp_2.active .dr_link .hidden {
     display: none;
 }
 
-.dr_link.active .visible {
+.dropdown_wrapp_2.active .visible {
     display: inline-block;
     vertical-align: top;
 }
