@@ -172,7 +172,13 @@
 
 /*-- Section 5 - Main Page --*/
 
+.tabs {
+	display: table;
+    padding-bottom: 30px;
+}
+
 .tabs li {
+	display: table-cell;
     padding: 7px 7px;
 }
 
@@ -2674,6 +2680,10 @@ p {
 	text-align: center;
     font-size: 32px;
     line-height: 42px;
+}
+
+.single_title_h2_2 p {
+	text-align: center;
 }
 
 .single_title_h2.single_title_h2_2:after {

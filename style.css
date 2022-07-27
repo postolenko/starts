@@ -2999,9 +2999,12 @@ div.rateit_2.svg div.rateit-preset {
 }
 
 .testimonials {
-    display: flex;
-    display: -webkit-flex;
+    display: table;
     padding-bottom: 20px;
+}
+
+.testimonials > div {
+    display: table-cell;
 }
 
 .testimonial {
@@ -3147,7 +3150,8 @@ div.rateit_3.svg div.rateit-preset {
 }
 
 .testimonial_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal {
-    width: calc(100% - 15px);
+    width: calc(100% - 30px);
+    margin-left: 15px;
 }
 
 .testimonials_2 {
