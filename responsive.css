@@ -262,6 +262,18 @@
 
 /*-- /Section 1 - Bag --*/
 
+/*-- Section 1 - Reviews Page --*/
+
+.two_cols_3 > .left_col {
+    width: 260px;
+}
+
+.two_cols_3 > .right_col {
+    width: calc(100% - 260px);
+}
+
+/*-- /Section 1 - Reviews Page --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -478,6 +490,30 @@
 }
 
 /*-- /Section 1 - Bag --*/
+
+/*-- Section 1 - Reviews Page --*/
+
+.scroll_inner_2 {
+    height: 375px;
+}
+
+/*-- /Section 1 - Reviews Page --*/
+
+/*-- Section 1 - Find Questions Page --*/
+
+.search_templ > .left_col {
+    width: 380px;
+}
+
+.search_templ > .right_col {
+    width: calc(100% - 380px);
+}
+
+.f_dr_title label {
+    font-size: 20px;
+}
+
+/*-- /Section 1 - Find Questions Page --*/
 
 }
 
@@ -1433,6 +1469,7 @@ h2 {
 /*-- Section 1 - Contacts Page --*/
 
 .sect_1_contacts {
+	background: radial-gradient(69.18% 82.68% at 50.13% 50%, #F5F6FF 0%, #F6F6F6 100%);
     padding-top: 15px;
 }
 
@@ -1452,6 +1489,7 @@ h2 {
 
 .contacts_templ > .right_col {
     width: 100%;
+    padding: 10px 0;
 }
 
 .form_wrapp {
@@ -1652,7 +1690,7 @@ h2 {
     display: -webkit-flex;
     align-items: center;
     -webkit-align-items: center;
-    min-height: 76px;
+    min-height: 61px;
     cursor: pointer;
     background: linear-gradient(279.55deg, #F2F4FF -34.27%, #DCDFF3 114.53%);
     background: -webkit-linear-gradient(279.55deg, #F2F4FF -34.27%, #DCDFF3 114.53%);
@@ -1724,6 +1762,19 @@ h2 {
 }
 
 /*-- /Section 1 - Profile Edit Page --*/
+
+/*-- Section 1 - Reviews Page --*/
+
+.sect_reviews {
+	background: radial-gradient(69.18% 82.68% at 50.13% 50%, #F5F6FF 0%, #F6F6F6 100%);
+}
+
+.form_wrapp_2 .number_img {
+	width: 100%;
+    max-width: 160px;
+}
+
+/*-- /Section 1 - Reviews Page --*/
 
 }
 
@@ -1961,7 +2012,6 @@ h2 {
     height: 45px;
 }
 
-
 /*-- /Section 1 - Log In Page --*/
 
 /*-- Footer --*/
@@ -1998,6 +2048,10 @@ h2 {
 }
 
 @media only screen and (max-width: 740px) {
+
+.visible_740 {
+	display: block;
+}
 
 /*-- Section 3 - Main Page --*/
 
@@ -2242,6 +2296,170 @@ p.num_thumb_val {
 }
 
 /*-- /Section 1 - Bag --*/
+
+/*-- Section 1 - History Order Page --*/
+
+.two_cols_2 {
+    margin: 10px 0 30px 0;
+}
+
+.tabs_2 {
+    padding-bottom: 0;
+}
+
+.tabs_2 li {
+    padding: 4.5px;
+}
+
+.scroll_table_wrapp {
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    max-height: 222px;
+}
+
+.order_table_header {
+	display: none;
+}
+
+.order_table_row {
+    border-top: none;
+}
+
+.order_table_row > .cell:nth-child(1) {
+    width: calc(100% - 31px);
+    border-right: none;
+    margin-bottom: 10px;
+    padding: 29px 10px 16px 20px;
+	background: rgba(220, 224, 255, 0.25);
+	border: 1px solid #C2C8F9;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.order_table_row > .cell:nth-child(2) {
+    display: none;
+}
+
+.order_table_row > .cell:nth-child(3) {
+    display: none;
+}
+
+.order_table_row > .cell:nth-child(4) {
+    display: none;
+}
+
+.bag_img_box {
+    width: 135px;
+    height: 170px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.order_table_row:last-child .bag_img_box {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.bag_thumb_resp_info {
+	display: block;
+}
+
+.bag_thumb_2 h3 {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.num_thumb_2 {
+	padding: 12px 0 12px 0;
+}
+
+.num_thumb_2 h4 {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.num_thumb_2 p {
+	font-family: 'Montserrat';
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.date_thumb {
+	padding: 4px 0;
+}
+
+.date_thumb p {
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.date_thumb p span {
+	font-weight: normal;
+}
+
+.bag_price_thumb {
+	padding-top: 13px;
+}
+
+.bag_price_2 {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+/*-- /Section 1 - History Order Page --*/
+
+/*-- Section 1 - Reviews Page --*/
+
+.two_cols_3 > .left_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.two_cols_3 > .right_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.srcl_2 .scroll_inner {
+    height: 240px;
+}
+
+.srcl_2 .scroll_sidebar_title h3 {
+	display: none;
+}
+
+.srcl_2 .scroll_sidebar_title h3.resp_h3 {
+	display: block;
+}
+
+.header_two_cols_2 {
+	display: none;
+}
+
+/*-- /Section 1 - Reviews Page --*/
+
+/*-- Section 1 - Reviews Page --*/
+
+.two_cols_3 {
+    padding-top: 26px;
+}
+
+.rev_inlines_2 {
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+	align-items: center;
+	-webkit-align-items: center;
+	padding-bottom: 20px;
+}
+
+/*-- /Section 1 - Reviews Page --*/
 
 }
 
@@ -2525,4 +2743,9 @@ p {
 	display: none !important;
 }
 /*-- /Header --*/
+/*-- Section 1 - Profile Edit Page --*/
+.menu_2_wrapp {
+	display: block !important;
+}
+/*-- /Section 1 - Profile Edit Page --*/
 }

@@ -593,6 +593,10 @@ section  > .row {
     display: none;
 }
 
+.visible_740 {
+    display: none;
+}
+
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
@@ -4203,17 +4207,58 @@ p.num_thumb_val {
     margin: 17px 0;
 }
 
-.f_dr_title {
-    padding: 5px 40px 11px 40px;
+.q_text_wrapp {
+    padding-bottom: 7px;
 }
 
-.f_dr_title h3 {
-    padding: 3px 0;
+.f_dr_title {
+    padding: 11px 40px 11px 40px;
+}
+
+.f_dr_title label {
+    display: inline;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 3px 0 0 0;
     font-weight: 600;
     font-size: 24px;
-    line-height: 33px;
+    line-height: 28px;
     text-transform: capitalize;
     color: #3A4178;
+    -webkit-transition-property: border;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.f_dr_title label:link,
+.f_dr_title label:visited {
+    border-bottom: 1px solid transparent;
+}
+
+.f_dr_title label:active,
+.f_dr_title label.active {
+    border-bottom: 1px solid #3A4178;
+}
+
+.f_dr_title label:hover {
+    border-bottom: 1px solid #3A4178;
 }
 
 .dr_link {
@@ -4287,6 +4332,54 @@ p.num_thumb_val {
     font-size: 18px;
     line-height: 25px;
     color: #5D6178;
+}
+
+.scrollbox_2 .inner {
+    padding-right: 20px;
+}
+
+.qurstion_content {
+    position: relative;
+}
+
+.question_radio {
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.qurstion_content .scrollbox_2 {
+    position: absolute;
+    top: 0;
+    left: -99999px;
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: opacity;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: opacity;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: opacity;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.question_radio:checked + .scrollbox_2 {
+    position: relative;
+    left: 0;
+    opacity: 1;
 }
 
 .scrollbox_2 {
@@ -5771,7 +5864,7 @@ div.rateit_4.svg div.rateit-preset {
 .two_cols_2 {
     display: flex;
     display: -webkit-flex;
-    0margin: 10px 0 75px 0;
+    margin: 10px 0 75px 0;
 }
 
 .two_cols_2 > .left_cols {
@@ -6074,6 +6167,10 @@ div.rateit_4.svg div.rateit-preset {
     border-radius: 0 0 16px 16px;
 }
 
+.bag_thumb_resp_info {
+    display: none;
+}
+
 /*-- /Section 1 - History Order Page --*/
 
 /*-- Section 1 - Reviews Page --*/
@@ -6155,6 +6252,8 @@ div.rateit_5.svg div.rateit-preset {
 .two_cols_3 {
     display: flex;
     display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 .two_cols_3 > .left_col {
@@ -6177,6 +6276,10 @@ div.rateit_5.svg div.rateit-preset {
 
 .scroll_sidebar_title_2 h3 {
     font-size: 24px;
+}
+
+.resp_h3 {
+    display: none;
 }
 
 .form_wrapp_2 {
@@ -6207,6 +6310,10 @@ div.rateit_5.svg div.rateit-preset {
 /*-- /Section 1 - Reviews Page --*/
 
 /*-- Section 1 - Profile Edit Page --*/
+
+.menu_2_title {
+    display: none;
+}
 
 .user_profile {
     padding: 39px 0 39px 0;
