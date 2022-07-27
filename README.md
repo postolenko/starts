@@ -6,7 +6,6 @@
 # http://postolenko.github.io/starts/delivery.html
 # http://postolenko.github.io/starts/articles.html
 # http://postolenko.github.io/starts/articles_2.html
-# http://postolenko.github.io/starts/articles_3.html
 # http://postolenko.github.io/starts/find_questions.html
 # http://postolenko.github.io/starts/bag.html
 # http://postolenko.github.io/starts/checkout.html
