@@ -311,27 +311,27 @@ $(document).ready(function() {
 
   if( $(".good_slider").length > 0 ) {
 
-    // $('.good_slider').on('init', function(){
-    //   index = 0;
-    //   $('.good_slider .video_slide').each(function() {
-    //     index++;
-    //     $(this).attr("data-fancybox", "video_"+index);
-    //     console.log(index);
-    //   });
-    // });
-    // $('.good_miniature_slider').on('init', function(){
-    //   index = 0;
-    //   $('.good_miniature_slider .video_slide').each(function() {
-    //     index++;
-    //     $(this).attr("data-fancybox", "video_miniature_"+index);
-    //     console.log(index);
-    //   });
-    // });
+    $('.good_slider').on('init', function(){
+      index = 0;
+      $('.good_slider .video_slide').each(function() {
+        index++;
+        $(this).attr("data-fancybox", "video_"+index);
+        console.log(index);
+      });
+    });
+    $('.good_miniature_slider').on('init', function(){
+      index = 0;
+      $('.good_miniature_slider .video_slide').each(function() {
+        index++;
+        $(this).attr("data-fancybox", "video_miniature_"+index);
+        console.log(index);
+      });
+    });
 
     $(".good_slider").not(".slick-initialized").slick({
         dots: false,
         arrows: false,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 4000,
         speed: 1200,
         slidesToShow: 1,
@@ -427,24 +427,7 @@ $(document).ready(function() {
       centerMode: true,
       asNavFor: '.goods_slider_2',
       prevArrow: '<button class="slick-prev small_arrow_2 prev_small" aria-label="Previous" type="button"><img src="img/slick_left_2.svg"></button>',
-      nextArrow: '<button class="slick-next small_arrow_2 next_small" aria-label="Next" type="button"><img src="img/slick_right_2.svg"></button>',
-      // fade: true,
-      // responsive: [
-      //     {
-      //       breakpoint: 900,
-      //       settings: {
-      //         slidesToShow: 2,
-      //         slidesToScroll: 2
-      //       }
-      //     },
-      //     {
-      //       breakpoint: 540,
-      //       settings: {
-      //         slidesToShow: 1,
-      //         slidesToScroll: 1
-      //       }
-      //     }
-      //   ]
+      nextArrow: '<button class="slick-next small_arrow_2 next_small" aria-label="Next" type="button"><img src="img/slick_right_2.svg"></button>'
     });
   }
 
