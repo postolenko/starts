@@ -260,7 +260,7 @@ $(document).ready(function() {
       $(".slider_1").not(".slick-initialized").slick({
           dots: true,
           arrows: true,
-          // autoplay: true,
+          autoplay: true,
           autoplaySpeed: 2000,
           speed: 1200,
           slidesToShow: 3,
